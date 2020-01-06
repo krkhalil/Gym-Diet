@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8737C31222E10A66000C3F00 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8737C31122E10A66000C3F00 /* WatchKit.framework */; };
+		8737C31422E10A6B000C3F00 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8737C31322E10A6B000C3F00 /* HealthKit.framework */; };
+		875379EA22E210D600772542 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875379E922E210D600772542 /* ProfileViewController.m */; };
+		C40611D122D31C7300519546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40611D022D31C7300519546 /* AppDelegate.m */; };
+		C40611D422D31C7300519546 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40611D322D31C7300519546 /* ViewController.m */; };
+		C40611D722D31C7300519546 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40611D522D31C7300519546 /* Main.storyboard */; };
+		C40611D922D31C7C00519546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40611D822D31C7C00519546 /* Assets.xcassets */; };
+		C40611DC22D31C7C00519546 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40611DA22D31C7C00519546 /* LaunchScreen.storyboard */; };
+		C40611DF22D31C7C00519546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40611DE22D31C7C00519546 /* main.m */; };
+		C40611E922D31C7C00519546 /* Gym_DietTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40611E822D31C7C00519546 /* Gym_DietTests.m */; };
+		C40611F422D31C7C00519546 /* Gym_DietUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40611F322D31C7C00519546 /* Gym_DietUITests.m */; };
+		C406120222D322C100519546 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C406120122D322C100519546 /* bg.jpg */; };
+		C4DD40FA22D5064100C413D3 /* meal-plan-for-every-guy-header-v2-830x467.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DD40F822D5064000C413D3 /* meal-plan-for-every-guy-header-v2-830x467.jpg */; };
+		C4DD40FB22D5064100C413D3 /* bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4DD40F922D5064000C413D3 /* bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg */; };
+		C4DD40FE22D506DB00C413D3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD40FD22D506DB00C413D3 /* MainViewController.m */; };
+		C4DD410122D5070400C413D3 /* ExercisetypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410022D5070400C413D3 /* ExercisetypeViewController.m */; };
+		C4DD410422D5071400C413D3 /* ExerciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410322D5071400C413D3 /* ExerciseViewController.m */; };
+		C4DD410722D5073A00C413D3 /* DietViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410622D5073A00C413D3 /* DietViewController.m */; };
+		C4DD410A22D5078200C413D3 /* exercisetTypeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410922D5078200C413D3 /* exercisetTypeTableViewCell.m */; };
+		C4DD410D22D5079200C413D3 /* ExerciseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410C22D5079200C413D3 /* ExerciseTableViewCell.m */; };
+		C4DD411022D5131C00C413D3 /* beginnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD410F22D5131C00C413D3 /* beginnerViewController.m */; };
+		C4DD411322D5132D00C413D3 /* ProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DD411222D5132D00C413D3 /* ProViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40611E522D31C7C00519546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40611C422D31C7200519546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40611CB22D31C7200519546;
+			remoteInfo = "Gym Diet";
+		};
+		C40611F022D31C7C00519546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40611C422D31C7200519546 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40611CB22D31C7200519546;
+			remoteInfo = "Gym Diet";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8737C2FD22E10A47000C3F00 /* Gym Diet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gym Diet-Bridging-Header.h"; sourceTree = "<group>"; };
+		8737C31122E10A66000C3F00 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		8737C31322E10A6B000C3F00 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		875379E822E210D600772542 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		875379E922E210D600772542 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		C40611CC22D31C7200519546 /* Gym Diet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Diet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40611CF22D31C7300519546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40611D022D31C7300519546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40611D222D31C7300519546 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40611D322D31C7300519546 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C40611D622D31C7300519546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40611D822D31C7C00519546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40611DB22D31C7C00519546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40611DD22D31C7C00519546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40611DE22D31C7C00519546 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40611E422D31C7C00519546 /* Gym DietTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym DietTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40611E822D31C7C00519546 /* Gym_DietTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gym_DietTests.m; sourceTree = "<group>"; };
+		C40611EA22D31C7C00519546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40611EF22D31C7C00519546 /* Gym DietUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym DietUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40611F322D31C7C00519546 /* Gym_DietUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gym_DietUITests.m; sourceTree = "<group>"; };
+		C40611F522D31C7C00519546 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C406120122D322C100519546 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		C4DD40F822D5064000C413D3 /* meal-plan-for-every-guy-header-v2-830x467.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "meal-plan-for-every-guy-header-v2-830x467.jpg"; sourceTree = "<group>"; };
+		C4DD40F922D5064000C413D3 /* bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg"; sourceTree = "<group>"; };
+		C4DD40FC22D506DB00C413D3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4DD40FD22D506DB00C413D3 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4DD40FF22D5070400C413D3 /* ExercisetypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExercisetypeViewController.h; sourceTree = "<group>"; };
+		C4DD410022D5070400C413D3 /* ExercisetypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExercisetypeViewController.m; sourceTree = "<group>"; };
+		C4DD410222D5071400C413D3 /* ExerciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseViewController.h; sourceTree = "<group>"; };
+		C4DD410322D5071400C413D3 /* ExerciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseViewController.m; sourceTree = "<group>"; };
+		C4DD410522D5073A00C413D3 /* DietViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DietViewController.h; sourceTree = "<group>"; };
+		C4DD410622D5073A00C413D3 /* DietViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DietViewController.m; sourceTree = "<group>"; };
+		C4DD410822D5078200C413D3 /* exercisetTypeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = exercisetTypeTableViewCell.h; sourceTree = "<group>"; };
+		C4DD410922D5078200C413D3 /* exercisetTypeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exercisetTypeTableViewCell.m; sourceTree = "<group>"; };
+		C4DD410B22D5079100C413D3 /* ExerciseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseTableViewCell.h; sourceTree = "<group>"; };
+		C4DD410C22D5079200C413D3 /* ExerciseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseTableViewCell.m; sourceTree = "<group>"; };
+		C4DD410E22D5131C00C413D3 /* beginnerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beginnerViewController.h; sourceTree = "<group>"; };
+		C4DD410F22D5131C00C413D3 /* beginnerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = beginnerViewController.m; sourceTree = "<group>"; };
+		C4DD411122D5132D00C413D3 /* ProViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProViewController.h; sourceTree = "<group>"; };
+		C4DD411222D5132D00C413D3 /* ProViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40611C922D31C7200519546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8737C31422E10A6B000C3F00 /* HealthKit.framework in Frameworks */,
+				8737C31222E10A66000C3F00 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611E122D31C7C00519546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611EC22D31C7C00519546 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8737C31022E10A66000C3F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8737C31322E10A6B000C3F00 /* HealthKit.framework */,
+				8737C31122E10A66000C3F00 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C40611C322D31C7200519546 = {
+			isa = PBXGroup;
+			children = (
+				C40611CE22D31C7200519546 /* Gym Diet */,
+				C40611E722D31C7C00519546 /* Gym DietTests */,
+				C40611F222D31C7C00519546 /* Gym DietUITests */,
+				C40611CD22D31C7200519546 /* Products */,
+				8737C2FD22E10A47000C3F00 /* Gym Diet-Bridging-Header.h */,
+				8737C31022E10A66000C3F00 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C40611CD22D31C7200519546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40611CC22D31C7200519546 /* Gym Diet.app */,
+				C40611E422D31C7C00519546 /* Gym DietTests.xctest */,
+				C40611EF22D31C7C00519546 /* Gym DietUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40611CE22D31C7200519546 /* Gym Diet */ = {
+			isa = PBXGroup;
+			children = (
+				C406120122D322C100519546 /* bg.jpg */,
+				C4DD40F922D5064000C413D3 /* bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg */,
+				C4DD40F822D5064000C413D3 /* meal-plan-for-every-guy-header-v2-830x467.jpg */,
+				C40611CF22D31C7300519546 /* AppDelegate.h */,
+				C40611D022D31C7300519546 /* AppDelegate.m */,
+				C40611D222D31C7300519546 /* ViewController.h */,
+				C40611D322D31C7300519546 /* ViewController.m */,
+				C4DD40FC22D506DB00C413D3 /* MainViewController.h */,
+				C4DD40FD22D506DB00C413D3 /* MainViewController.m */,
+				C40611D522D31C7300519546 /* Main.storyboard */,
+				C4DD40FF22D5070400C413D3 /* ExercisetypeViewController.h */,
+				C4DD410022D5070400C413D3 /* ExercisetypeViewController.m */,
+				875379E822E210D600772542 /* ProfileViewController.h */,
+				875379E922E210D600772542 /* ProfileViewController.m */,
+				C4DD410B22D5079100C413D3 /* ExerciseTableViewCell.h */,
+				C4DD410C22D5079200C413D3 /* ExerciseTableViewCell.m */,
+				C4DD410822D5078200C413D3 /* exercisetTypeTableViewCell.h */,
+				C4DD410922D5078200C413D3 /* exercisetTypeTableViewCell.m */,
+				C4DD410222D5071400C413D3 /* ExerciseViewController.h */,
+				C4DD410322D5071400C413D3 /* ExerciseViewController.m */,
+				C4DD410E22D5131C00C413D3 /* beginnerViewController.h */,
+				C4DD410F22D5131C00C413D3 /* beginnerViewController.m */,
+				C4DD410522D5073A00C413D3 /* DietViewController.h */,
+				C4DD411122D5132D00C413D3 /* ProViewController.h */,
+				C4DD411222D5132D00C413D3 /* ProViewController.m */,
+				C4DD410622D5073A00C413D3 /* DietViewController.m */,
+				C40611D822D31C7C00519546 /* Assets.xcassets */,
+				C40611DA22D31C7C00519546 /* LaunchScreen.storyboard */,
+				C40611DD22D31C7C00519546 /* Info.plist */,
+				C40611DE22D31C7C00519546 /* main.m */,
+			);
+			path = "Gym Diet";
+			sourceTree = "<group>";
+		};
+		C40611E722D31C7C00519546 /* Gym DietTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40611E822D31C7C00519546 /* Gym_DietTests.m */,
+				C40611EA22D31C7C00519546 /* Info.plist */,
+			);
+			path = "Gym DietTests";
+			sourceTree = "<group>";
+		};
+		C40611F222D31C7C00519546 /* Gym DietUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40611F322D31C7C00519546 /* Gym_DietUITests.m */,
+				C40611F522D31C7C00519546 /* Info.plist */,
+			);
+			path = "Gym DietUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40611CB22D31C7200519546 /* Gym Diet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40611F822D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym Diet" */;
+			buildPhases = (
+				C40611C822D31C7200519546 /* Sources */,
+				C40611C922D31C7200519546 /* Frameworks */,
+				C40611CA22D31C7200519546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gym Diet";
+			productName = "Gym Diet";
+			productReference = C40611CC22D31C7200519546 /* Gym Diet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40611E322D31C7C00519546 /* Gym DietTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40611FB22D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym DietTests" */;
+			buildPhases = (
+				C40611E022D31C7C00519546 /* Sources */,
+				C40611E122D31C7C00519546 /* Frameworks */,
+				C40611E222D31C7C00519546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40611E622D31C7C00519546 /* PBXTargetDependency */,
+			);
+			name = "Gym DietTests";
+			productName = "Gym DietTests";
+			productReference = C40611E422D31C7C00519546 /* Gym DietTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40611EE22D31C7C00519546 /* Gym DietUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40611FE22D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym DietUITests" */;
+			buildPhases = (
+				C40611EB22D31C7C00519546 /* Sources */,
+				C40611EC22D31C7C00519546 /* Frameworks */,
+				C40611ED22D31C7C00519546 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40611F122D31C7C00519546 /* PBXTargetDependency */,
+			);
+			name = "Gym DietUITests";
+			productName = "Gym DietUITests";
+			productReference = C40611EF22D31C7C00519546 /* Gym DietUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40611C422D31C7200519546 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Moiz;
+				TargetAttributes = {
+					C40611CB22D31C7200519546 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+					};
+					C40611E322D31C7C00519546 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C40611CB22D31C7200519546;
+					};
+					C40611EE22D31C7C00519546 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C40611CB22D31C7200519546;
+					};
+				};
+			};
+			buildConfigurationList = C40611C722D31C7200519546 /* Build configuration list for PBXProject "Gym Diet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40611C322D31C7200519546;
+			productRefGroup = C40611CD22D31C7200519546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40611CB22D31C7200519546 /* Gym Diet */,
+				C40611E322D31C7C00519546 /* Gym DietTests */,
+				C40611EE22D31C7C00519546 /* Gym DietUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40611CA22D31C7200519546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40611DC22D31C7C00519546 /* LaunchScreen.storyboard in Resources */,
+				C40611D922D31C7C00519546 /* Assets.xcassets in Resources */,
+				C406120222D322C100519546 /* bg.jpg in Resources */,
+				C4DD40FB22D5064100C413D3 /* bodybuilding-for-beginners-training-and-nutrition_facebook-830x467.jpg in Resources */,
+				C40611D722D31C7300519546 /* Main.storyboard in Resources */,
+				C4DD40FA22D5064100C413D3 /* meal-plan-for-every-guy-header-v2-830x467.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611E222D31C7C00519546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611ED22D31C7C00519546 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40611C822D31C7200519546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4DD411022D5131C00C413D3 /* beginnerViewController.m in Sources */,
+				C4DD410D22D5079200C413D3 /* ExerciseTableViewCell.m in Sources */,
+				C4DD410A22D5078200C413D3 /* exercisetTypeTableViewCell.m in Sources */,
+				C4DD410422D5071400C413D3 /* ExerciseViewController.m in Sources */,
+				C4DD410122D5070400C413D3 /* ExercisetypeViewController.m in Sources */,
+				C4DD411322D5132D00C413D3 /* ProViewController.m in Sources */,
+				C40611D422D31C7300519546 /* ViewController.m in Sources */,
+				C4DD410722D5073A00C413D3 /* DietViewController.m in Sources */,
+				C40611DF22D31C7C00519546 /* main.m in Sources */,
+				C40611D122D31C7300519546 /* AppDelegate.m in Sources */,
+				875379EA22E210D600772542 /* ProfileViewController.m in Sources */,
+				C4DD40FE22D506DB00C413D3 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611E022D31C7C00519546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40611E922D31C7C00519546 /* Gym_DietTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40611EB22D31C7C00519546 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40611F422D31C7C00519546 /* Gym_DietUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40611E622D31C7C00519546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40611CB22D31C7200519546 /* Gym Diet */;
+			targetProxy = C40611E522D31C7C00519546 /* PBXContainerItemProxy */;
+		};
+		C40611F122D31C7C00519546 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40611CB22D31C7200519546 /* Gym Diet */;
+			targetProxy = C40611F022D31C7C00519546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40611D522D31C7300519546 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40611D622D31C7300519546 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40611DA22D31C7C00519546 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40611DB22D31C7C00519546 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40611F622D31C7C00519546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C40611F722D31C7C00519546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40611F922D31C7C00519546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Gym Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.GymandDietplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gym Diet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C40611FA22D31C7C00519546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W62BCMM8X9;
+				INFOPLIST_FILE = "Gym Diet/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.domojis.GymandDietplan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Gym Diet-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C40611FC22D31C7C00519546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Gym DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiz.blogopedia.Gym-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Diet.app/Gym Diet";
+			};
+			name = Debug;
+		};
+		C40611FD22D31C7C00519546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Gym DietTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiz.blogopedia.Gym-DietTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Diet.app/Gym Diet";
+			};
+			name = Release;
+		};
+		C40611FF22D31C7C00519546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Gym DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiz.blogopedia.Gym-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gym Diet";
+			};
+			name = Debug;
+		};
+		C406120022D31C7C00519546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GZV8FH84KU;
+				INFOPLIST_FILE = "Gym DietUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.moiz.blogopedia.Gym-DietUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gym Diet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40611C722D31C7200519546 /* Build configuration list for PBXProject "Gym Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40611F622D31C7C00519546 /* Debug */,
+				C40611F722D31C7C00519546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40611F822D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym Diet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40611F922D31C7C00519546 /* Debug */,
+				C40611FA22D31C7C00519546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40611FB22D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym DietTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40611FC22D31C7C00519546 /* Debug */,
+				C40611FD22D31C7C00519546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40611FE22D31C7C00519546 /* Build configuration list for PBXNativeTarget "Gym DietUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40611FF22D31C7C00519546 /* Debug */,
+				C406120022D31C7C00519546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40611C422D31C7200519546 /* Project object */;
+}
